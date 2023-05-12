@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile To SabiBook</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/29e307186d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <!-- This is the Nav section -->
+       <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+
+            <ul>
+                <li><img src="images/notification.png"></li>
+
+                <li><img src="images/inbox.png"></li>
+
+                <li><img src="images/video.png"></li>
+            </ul>
+       </div>
+
+        <div class="nav-right">
+
+            <div class="search-box">
+
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/member-8.png">
+
+            </div>
+
+        </div>
+        
+        <!-- settings menu -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/member-5.png">
+    
+                    <div>
+                        <p>Bright Goodnews</p>
+                    </div>
+                </div>
+
+                <hr>
+    
+                
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings And Privacy
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/feedback.png" class="settings-icon">
+                    <a href="#">Give feedback
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Log Out
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+
+
+            </div>
+            
+        </div>
+      
+    </nav>
+
+
+<!-- profile page -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/member-8.png" alt=""  class="pd-img">
+                    <div>
+                        <h3>BRIGHT GODNEWS</h3>
+                        <P><a href="#">3.7k Followers</a>  <a href="#">3.7k Followers</a></P>
+
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                        <img src="images/member-5.png">
+                        <img src="images/member-6.png">
+                        <img src="images/member-7.png">
+                        <img src="images/member-8.png">
+                        <img src="images/member-9.png">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png">Friends</button>
+                <button type="button"><img src="images/message.png">Messages</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+            </div>
+            
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/member-5.png">
+    
+                        <div>
+                            <p>Bright Goodnews</p>
+                            <small>Public  <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+    
+                    <div class="post-input-container">
+                       <textarea rows="3" placeholder="What's on your mind, Bright?"></textarea>
+    
+                       <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video </a>
+                        <a href="#"><img src="images/photo.png"> Photo Video </a>
+                        <a href="#"><img src="images/feeling.png">Feeling/Activity </a>
+                       </div>
+                    </div>
+    
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-6.png">
+    
+                            <div>
+                                <p>Bright Goodnews</p>
+                                <span>May 9 2023. 18:30</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+            
+                    <p class="post-text">
+                        The easiest <span>Bright</span> way to get icons on your website is with a Kit.
+                        <a href="#">#bright</a>
+                    </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">42</div>
+                            <div><img src="images/share.png">5</div>
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="images/member-6.png"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-6.png">
+    
+                            <div>
+                                <p>Bright Goodnews</p>
+                                <span>May 9 2023. 18:30</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+            
+                    <p class="post-text">
+                        The easiest <span>Bright</span> way to get icons on your website is with a Kit.
+                        <a href="#">#bright</a>
+                    </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">42</div>
+                            <div><img src="images/share.png">5</div>
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="images/member-6.png"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-6.png">
+    
+                            <div>
+                                <p>Bright Goodnews</p>
+                                <span>May 9 2023. 18:30</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+            
+                    <p class="post-text">
+                        The easiest <span>Bright</span> way to get icons on your website is with a Kit.
+                        <a href="#">#bright</a>
+                    </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">42</div>
+                            <div><img src="images/share.png">5</div>
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="images/member-6.png"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-6.png">
+                            <div>
+                                <p>Bright Goodnews</p>
+                                <span>May 9 2023. 18:30</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                        <p class="post-text">
+                            The easiest <span>Bright</span> way to get icons on your website is with a Kit.
+                            <a href="#">#bright</a>
+                        </p>
+                        <img src="images/feed-image-5.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="images/like-blue.png">50</div>
+                            <div><img src="images/comments.png">12</div>
+                            <div><img src="images/share.png">2</div>
+                        </div>
+    
+                        <div class="post-profile-icon">
+                            <img src="images/member-6.png"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="footer">
+        <p>&copy; Copyright 2023 - <a href="https://panexdelivery.com" target="_blank">Panexdelivery</a></p>
+   </div>
+
+   <script src="/script.js"></script>
+    
+</body>
+</html>
