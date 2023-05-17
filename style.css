@@ -338,13 +338,15 @@ a{
 .user-profile img{
     width: 45px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .user-profile p{
-    margin-bottom: -5px;
+    margin-bottom:2px;
     font-weight: 500;
     color: #626262;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .user-profile small{
@@ -459,6 +461,7 @@ a{
     color: #626262;
     background: transparent;
     border-radius: 4px;
+    align-items: center;
 }
 
 .footer{
@@ -661,3 +664,162 @@ a{
  .pd-right a img{
     width: 20px;
  }
+
+ .profile-info{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: space-between;
+ }
+
+ .info-col{
+    flex-basis: 33%;
+ }
+
+ .post-col{
+    flex-basis: 65%;
+ }
+
+ .profile-info .profile-intro{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: var(--bg-color);
+    border-radius: 4px;
+ }
+
+ .profile-intro h3{
+    font-weight: 600;
+ }
+
+ .profile-intro .intro-text{
+    text-align: center;
+    margin: 10px 0;
+    font-family: 15px;
+ }
+
+ .intro-text img{
+    width: 15px;
+    margin-bottom: -3px;
+ }
+
+ .profile-intro hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px 0;
+ }
+
+ .profile-intro ul li{
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+ }
+
+ 
+
+ .profile-intro ul li img{
+    width: 26px;
+    margin-right: 15px;
+ }
+
+ .title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+ }
+
+ .title-box
+ a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 14px;
+ }
+
+
+ .photo-box{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap:10px;
+ }
+
+ .photo-box div img{
+    width: 100%;
+    cursor: pointer;
+ }
+
+ .profile-intro p{
+    margin-bottom: 2px;
+    font-size: 14px;
+ }
+
+ .friend-box{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap:10px;
+ }
+
+ .friend-box div img {
+    width: 100%;
+    cursor: pointer;
+    padding-bottom: 20px;
+ }
+
+ .friend-box div{
+    position: relative;
+ }
+
+ .friend-box p{
+    position: relative;
+    bottom: 0;
+    left: 0;
+ }
+
+/* media query for home page */
+
+
+@media (max-width:900px){
+    .right-sidebar{
+        display: none;
+    }
+
+    .left-sidebar{
+        display: none;
+    }
+
+    nav{
+        flex-wrap: wrap;
+    }
+
+    .search-box{
+        display: none;
+    }
+
+    .logo{
+        width: 100px;
+        margin-right: 20px;
+    }
+
+    .nav-left ul li img{
+        width: 20px;
+    }
+
+    .nav-user-icon img{
+        width: 30px;
+    }
+
+    .nav-user-icon{
+        margin-left: 0;
+    }
+
+    .add-post-links{
+        flex-wrap: wrap;
+    }
+
+    .main-content{
+        flex-basis: 100%;
+    }
+
+}
